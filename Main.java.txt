@@ -1,0 +1,29 @@
+
+class Student{
+    int roll;
+    String name;
+    
+    void print(){
+System.out.println("The name is " + name);
+System.out.println("The roll is " + roll);
+}
+    
+}
+
+ class Main {
+    public static void main(String args[]){
+
+        Student st = new Student();
+         Student st2 = new Student();
+        st.name="Saikat";
+        st.roll=13;
+        st2.name="Saikat";
+        st2.roll=13;
+        st.print();
+        System.out.println(st2.name);
+        System.out.println(st2.roll);
+
+    }
+    }
+    
+
